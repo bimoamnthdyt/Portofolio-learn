@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap");
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+body::before {
+  content: '';
+  background-image: url(../img/bg2.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 55vmax;
+  height: 50em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.custom-nav .navbar-brand img {
+  height: 3em;
+}
+
+.custom-nav .navbar-brand span {
+  color: #744DC4;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 762px) {
+  .custom-nav .navbar-brand span {
+    color: #3F2F61;
+  }
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 1.3em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #999999;
+}
+
+@media screen and (max-width: 990px) {
+  .custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+    color: black;
+  }
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+  background-color: white;
+  color: #744DC4;
+  border-radius: 4em;
+  border: 0;
+}
+
+@media screen and (max-width: 990px) {
+  .custom-nav #navbarNav .navbar-nav .nav-item .sign-up-button {
+    background-color: #744DC4;
+    color: white;
+    width: 13em;
+  }
+}
+
+.custom-section {
+  margin-top: 9.3em;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-section {
+    margin-top: 29em;
+  }
+}
+
+.custom-section h3 {
+  color: #744DC4;
+  margin-bottom: 0.5em;
+}
+
+.custom-section h1 {
+  font-size: 3.2em;
+  color: #4743A3;
+  margin-bottom: -4px;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-section h1 {
+    width: 420px;
+    font-size: 2em;
+  }
+}
+
+.custom-section h4 {
+  color: #535456;
+  font-size: 1.5em;
+  width: 390px;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 1192px) {
+  .custom-section h4 {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .custom-section h4 {
+    width: 390px;
+    font-size: 1em;
+  }
+}
+
+.custom-section a {
+  margin-top: 2.3em;
+  color: white;
+  background-color: #4743A3;
+  display: inline-block;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.content-section2 {
+  margin-top: 20em;
+  padding-top: 5.5em;
+  height: 30em;
+}
+
+.content-section2 .wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 55% 35%;
+      grid-template-columns: 55% 35%;
+}
+
+.content-section2 .wrapper .page1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 23em;
+}
+
+.content-section2 .wrapper .page2 {
+  padding-top: 2.5em;
+  font-size: 1em;
+}
+
+.content-section3 {
+  margin-top: 10em;
+  height: 45em;
+  background-color: #744DC4;
+}
+
+.content-section3 h2 {
+  padding-top: 3em;
+  text-align: center;
+  color: white;
+  padding-bottom: 0.3em;
+}
+
+.content-section3 .custom-card {
+  padding-top: 9em;
+  margin: auto;
+  border: 0;
+  width: 55em;
+  color: white;
+}
+
+.content-section3 .custom-card .card {
+  border: 0;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-section3 .custom-card .card h4 {
+  color: #535456;
+}
+
+.content-section3 .custom-card .card img {
+  width: 6em;
+}
+
+.content-section-work {
+  height: 105em;
+  background-color: #744DC4;
+}
+
+.content-section-work h2 {
+  padding-top: 0.8em;
+  text-align: center;
+  color: white;
+  padding-bottom: 0.3em;
+}
+
+.content-section-work .worksone {
+  margin-top: 7em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 40%;
+      grid-template-columns: 50% 40%;
+}
+
+.content-section-work .worksone .jiss img {
+  -webkit-box-shadow: 14px 14px 5px rgba(0, 0, 0, 0.301);
+          box-shadow: 14px 14px 5px rgba(0, 0, 0, 0.301);
+  border-radius: 10px;
+  display: block;
+  margin-left: 6em;
+  width: 20em;
+}
+
+.content-section-work .worksone .jiss h4 {
+  padding-top: 4.5em;
+  color: #3F2F61;
+}
+
+.content-section-work .worksone .jiss p {
+  color: white;
+}
+
+.content-section-work .workstwo {
+  margin-left: 5em;
+  margin-top: 10em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 40%;
+      grid-template-columns: 50% 40%;
+}
+
+.content-section-work .workstwo .design img {
+  -webkit-box-shadow: -14px 14px 5px rgba(0, 0, 0, 0.301);
+          box-shadow: -14px 14px 5px rgba(0, 0, 0, 0.301);
+  border-radius: 10px;
+  display: block;
+  margin-left: 5em;
+  width: 20em;
+}
+
+.content-section-work .workstwo .design h4 {
+  text-align: right;
+  padding-top: 2em;
+  color: #3F2F61;
+}
+
+.content-section-work .workstwo .design p {
+  text-align: right;
+  color: white;
+}
+
+.content-section-work .workstwo .design button {
+  float: right;
+}
+
+.content-section-work .workstree {
+  margin-top: 10em;
+  display: -ms-grid;
+  display: grid;
+}
+
+.content-section-work .workstree .photografy {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60em;
+}
+
+.content-section-work .workstree .photografy h4 {
+  text-align: center;
+  padding-top: 1em;
+  color: #3F2F61;
+}
+
+.content-section-work .workstree .photografy p {
+  text-align: center;
+  color: white;
+}
+
+.content-section-work .workstree .photografy img {
+  -webkit-box-shadow: 14px 14px 5px rgba(0, 0, 0, 0.301);
+          box-shadow: 14px 14px 5px rgba(0, 0, 0, 0.301);
+  border-radius: 10px;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 60em;
+}
+
+.contactus {
+  height: 42em;
+  background-color: whitesmoke;
+}
+
+.contactus h2 {
+  margin: auto;
+  color: #744DC4;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.contactus h3 {
+  margin-left: 2em;
+  color: #744DC4;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contactus p {
+  margin-left: 4em;
+}
+
+.contactus .content {
+  padding: 7rem 0;
+}
+
+.contactus .box {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactus .form-control {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  background-color: whitesmoke;
+}
+
+.contactus .form-control:active, .contactus .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #000;
+}
+
+.contactus .btn, .contactus .form-control {
+  margin-bottom: 1em;
+  height: 60px;
+}
+
+.contactus label.error {
+  font-size: 12px;
+  color: red;
+}
+
+.contactus .submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+}
+
+.contactus table {
+  margin-left: 3em;
+}
+
+.contactus table td {
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+}
+
+.linkus {
+  height: 23em;
+  background-color: whitesmoke;
+}
+
+.linkus .card-group {
+  padding-top: 5em;
+  margin: auto;
+  width: 40em;
+}
+
+.linkus .card {
+  border: 0;
+  text-align: center;
+  background-color: whitesmoke;
+  height: 6em;
+}
+
+.linkus .card a {
+  text-decoration: none;
+  color: #535456;
+}
+
+.linkus .card img {
+  width: 4em;
+}
+
+.linkus .card p {
+  margin-top: 1em;
+}
+
+.footer {
+  height: 4em;
+  background-color: #4743A3;
+}
+
+.footer p {
+  text-align: center;
+  padding-top: 1.5em;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=main.css.map */
